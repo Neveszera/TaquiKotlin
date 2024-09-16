@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Cor de fundo com 50% de opacidade -->
+    <solid android:color="#80FFFFFF"/> <!-- 50% opacidade do branco -->
+
+    <!-- Cor da borda com 35% de opacidade -->
+    <stroke
+        android:color="#59FFFFFF"
+        android:width="2dp"/>
+
+    <!-- Radius dos cantos -->
+    <corners android:radius="50dp"/>
+</shape>

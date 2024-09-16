@@ -1,0 +1,23 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Borda cinza apenas na parte superior -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent" />
+            <corners android:topLeftRadius="25dp" android:topRightRadius="25dp" />
+            <stroke
+                android:width="10dp"
+                android:color="#C8C8C8"
+                android:dashGap="0dp"
+                android:dashWidth="0dp" />
+        </shape>
+    </item>
+
+    <!-- Fundo branco com cantos arredondados em cima -->
+    <item android:top="10dp">
+        <shape>
+            <solid android:color="#FAFAFA" />
+            <corners android:topLeftRadius="30dp" android:topRightRadius="30dp" />
+        </shape>
+    </item>
+</layer-list>

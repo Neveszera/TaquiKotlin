@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "369133883874",
+    "project_id": "taquiappkotlin",
+    "storage_bucket": "taquiappkotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369133883874:android:b3b42281611dc2500fa9bb",
+        "android_client_info": {
+          "package_name": "com.example.taqui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV1Q9oelE1MVAYcTNgAHpU0HkcXnUQdXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
