@@ -58,7 +58,7 @@ Estamos utilizando **Firebase** como a principal plataforma de backend para o pr
 Na próxima entrega, planejamos incluir:
 - **Tela de Perfil:** Visualização e edição de informações pessoais dos usuários.
 - **Tela de Configurações:** Ajuste de preferências e configurações de conta.
-- **Tela de Produtos:** Gerenciamento e visualização de produtos (se aplicável).
+- **Tela de Produtos:** Gerenciamento e visualização de produtos.
 
 ## Diagrama de Arquitetura
 Aqui está o diagrama de arquitetura do projeto, que inclui a estrutura de pastas utilizada:
