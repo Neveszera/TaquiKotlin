@@ -42,7 +42,7 @@
 Estamos utilizando **Firebase** como a principal plataforma de backend para o projeto. A seguir estão os principais serviços e funcionalidades implementadas:
 
 #### Autenticação (Auth)
-- **Métodos de Login:** Implementação de login por email e senha, além de autenticação através de provedores externos como Google, Facebook e Twitter.
+- **Métodos de Login:** Implementação de login por email e senha.
 - **Gerenciamento de Sessão:** Controle e manutenção das sessões de usuário, com suporte a tokens de autenticação para garantir segurança e persistência.
 - **Segurança:** Configuração de regras e políticas para proteger as credenciais dos usuários e prevenir acessos não autorizados.
 
