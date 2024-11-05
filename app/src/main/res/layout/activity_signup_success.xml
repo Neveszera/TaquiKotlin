@@ -33,10 +33,10 @@
             android:id="@+id/titulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cadastre-se"
+            android:text="@string/signup_success_title"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:textColor="#5A72C7"
+            android:textColor="@color/background_color"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="10dp"/>
 
@@ -46,16 +46,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="50dp"
-            android:contentDescription="Sucesso"
+            android:contentDescription="@string/success"
             android:src="@drawable/check" />
 
         <TextView
             android:id="@+id/subtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cadastro realizado com sucesso."
+            android:text="@string/signup_success_message"
             android:textSize="14sp"
-            android:textColor="#949494"
+            android:textColor="@color/subtitle_text_color"
             android:layout_marginTop="45dp"
             android:layout_marginBottom="15dp"
             android:layout_marginLeft="10dp"/>
@@ -64,27 +64,27 @@
             android:id="@+id/description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Um e-mail com o seu PIN foi enviado."
+            android:text="@string/email_pin_sent_message"
             android:textSize="12sp"
-            android:textColor="#949494"
+            android:textColor="@color/subtitle_text_color"
             android:layout_marginLeft="10dp"/>
 
         <TextView
             android:id="@+id/description2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Guarde-o com carinho, o PIN é utilizado caso você precise"
+            android:text="@string/keep_pin_safe_message"
             android:textSize="12sp"
-            android:textColor="#949494"
+            android:textColor="@color/subtitle_text_color"
             android:layout_marginLeft="10dp"/>
 
         <TextView
             android:id="@+id/description3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="recuperar a sua senha futuramente."
+            android:text="@string/pin_used_for_recovery_message"
             android:textSize="12sp"
-            android:textColor="#949494"
+            android:textColor="@color/subtitle_text_color"
             android:layout_marginLeft="10dp"/>
 
         <LinearLayout
@@ -98,14 +98,11 @@
                 android:id="@+id/btn_login_navigation"
                 android:layout_width="190dp"
                 android:layout_height="55dp"
-                android:backgroundTint="#9366B7"
-                android:text="login"
-                android:textColor="#FFFFFF"
+                android:backgroundTint="@color/button_background_color"
+                android:text="@string/login_button"
+                android:textColor="@color/button_text_color"
                 android:textSize="20sp"
                 android:layout_gravity="center"/>
         </LinearLayout>
-
-
     </LinearLayout>
-
 </LinearLayout>

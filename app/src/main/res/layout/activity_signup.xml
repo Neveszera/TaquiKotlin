@@ -33,105 +33,105 @@
             android:id="@+id/title_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cadastre-se"
+            android:text="@string/signup_title"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:textColor="#5A72C7"
+            android:textColor="@color/background_color"
             android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp"/>
+            android:layout_marginLeft="10dp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="usuário"
             android:layout_marginTop="20dp"
             app:boxBackgroundMode="filled"
-            app:boxBackgroundColor="#EDEDED"
-            app:boxStrokeColor="#5A72C7"
-            app:hintTextColor="#B1B1B1">
+            app:boxBackgroundColor="@color/input_background_color"
+            app:boxStrokeColor="@color/input_stroke_color"
+            app:hintTextColor="@color/hint_text_color"
+            android:hint="@string/username_hint">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/username_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
-                android:textColor="#9366B7"
+                android:textColor="@color/input_text_color"
                 android:textSize="16sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="senha"
             android:layout_marginTop="20dp"
             app:boxBackgroundMode="filled"
-            app:boxBackgroundColor="#EDEDED"
-            app:boxStrokeColor="#5A72C7"
-            app:hintTextColor="#B1B1B1">
+            app:boxBackgroundColor="@color/input_background_color"
+            app:boxStrokeColor="@color/input_stroke_color"
+            app:hintTextColor="@color/hint_text_color"
+            android:hint="@string/signup_password_hint">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/password_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
-                android:textColor="#9366B7"
+                android:textColor="@color/input_text_color"
                 android:textSize="16sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="confirme a senha"
             android:layout_marginTop="20dp"
             app:boxBackgroundMode="filled"
-            app:boxBackgroundColor="#EDEDED"
-            app:boxStrokeColor="#5A72C7"
-            app:hintTextColor="#B1B1B1">
+            app:boxBackgroundColor="@color/input_background_color"
+            app:boxStrokeColor="@color/input_stroke_color"
+            app:hintTextColor="@color/hint_text_color"
+            android:hint="@string/confirm_password_hint">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/password_confirm_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
-                android:textColor="#9366B7"
+                android:textColor="@color/input_text_color"
                 android:textSize="16sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="e-mail"
             android:layout_marginTop="20dp"
             app:boxBackgroundMode="filled"
-            app:boxBackgroundColor="#EDEDED"
-            app:boxStrokeColor="#5A72C7"
-            app:hintTextColor="#B1B1B1">
+            app:boxBackgroundColor="@color/input_background_color"
+            app:boxStrokeColor="@color/input_stroke_color"
+            app:hintTextColor="@color/hint_text_color"
+            android:hint="@string/signup_email_hint">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/email_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
-                android:textColor="#9366B7"
+                android:textColor="@color/input_text_color"
                 android:textSize="16sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="cpf"
             android:layout_marginTop="20dp"
             app:boxBackgroundMode="filled"
-            app:boxBackgroundColor="#EDEDED"
-            app:boxStrokeColor="#5A72C7"
-            app:hintTextColor="#B1B1B1">
+            app:boxBackgroundColor="@color/input_background_color"
+            app:boxStrokeColor="@color/input_stroke_color"
+            app:hintTextColor="@color/hint_text_color"
+            android:hint="@string/cpf_hint">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/cpf_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"
-                android:textColor="#9366B7"
+                android:textColor="@color/input_text_color"
                 android:textSize="16sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -146,9 +146,9 @@
                 android:id="@+id/btn_signup"
                 android:layout_width="190dp"
                 android:layout_height="55dp"
-                android:backgroundTint="#9366B7"
-                android:text="cadastre-se"
-                android:textColor="#FFFFFF"
+                android:backgroundTint="@color/button_background_color"
+                android:text="@string/signup_button"
+                android:textColor="@color/button_text_color"
                 android:textSize="20sp"
                 android:layout_gravity="center"/>
         </LinearLayout>

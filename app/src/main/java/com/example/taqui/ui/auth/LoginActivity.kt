@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.taqui.R
-import com.example.taqui.ui.main.HomeActivity
+import com.example.taqui.ui.main.AuthenticatedActivity
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.checkbox.MaterialCheckBox
@@ -66,7 +66,7 @@ class LoginActivity : AppCompatActivity() {
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
                     saveSession(email)
-                    val intent = Intent(this, HomeActivity::class.java)
+                    val intent = Intent(this, AuthenticatedActivity::class.java)
                     startActivity(intent)
                     finish()
                 } else {

@@ -1,4 +1,76 @@
 <resources>
+    <!-- Nome do aplicativo -->
     <string name="app_name">Taqui</string>
+
+    <!-- Strings para Tela de Login -->
     <string name="logo_taqui">Logo Taqui</string>
+    <string name="login">Login</string>
+    <string name="enter_email_password">Entre com seu e-mail e senha</string>
+    <string name="email_hint">e-mail</string>
+    <string name="password_hint">senha</string>
+    <string name="keep_connected">manter conectado</string>
+    <string name="forgot_password">esqueceu sua senha?</string>
+    <string name="login_button">entrar</string>
+    <string name="register_button">registre-se</string>
+    <string name="or_enter_with">ou entre com</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="apple">Apple</string>
+
+    <!-- Strings para Tela de Recuperar Senha -->
+    <string name="recover_password_title">Recuperar senha</string>
+    <string name="recover_password_description">Insira o e-mail cadastrado. Um código validador será enviado para o seu e-mail e você deve inserir o seu PIN e o código validador para gerar uma nova senha.</string>
+    <string name="recover_button">recuperar</string>
+
+    <!-- Strings para Tela de Sucesso Recuperar Senha -->
+    <string name="success">Sucesso</string>
+    <string name="password_recovery_success">Sua senha foi recuperada com sucesso.</string>
+    <string name="update_biometrics_suggestion">Aproveite para atualizar os seus smart lockers e autenticar a sua biometria após o login, assim ficará muito mais fácil o seu login.</string>
+    <string name="password_reminder_message">A gente sabe como decorar senha é chato, mas faz parte da proteção dos seus dados.</string>
+
+    <!-- Strings para Tela de Cadastro -->
+    <string name="signup_title">Cadastre-se</string>
+    <string name="username_hint">usuário</string>
+    <string name="signup_password_hint">senha</string>
+    <string name="confirm_password_hint">confirme a senha</string>
+    <string name="signup_email_hint">e-mail</string>
+    <string name="cpf_hint">cpf</string>
+    <string name="signup_button">cadastre-se</string>
+
+    <!-- Strings para Tela de Sucesso Cadastro -->
+    <string name="signup_success_title">Cadastre-se</string>
+    <string name="signup_success_message">Cadastro realizado com sucesso.</string>
+    <string name="email_pin_sent_message">Um e-mail com o seu PIN foi enviado.</string>
+    <string name="keep_pin_safe_message">Guarde-o com carinho, o PIN é utilizado caso você precise</string>
+    <string name="pin_used_for_recovery_message">recuperar a sua senha futuramente.</string>
+
+    <!-- Strings para Componente Header -->
+    <string name="logo_description">Logo do aplicativo</string>
+    <string name="greeting_text">olá,</string>
+    <string name="username_placeholder">usuário</string>
+    <string name="avatar_description">Imagem do avatar</string>
+
+    <!-- Strings para Tela Home -->
+    <string name="search_hint">pesquisar</string>
+    <string name="search_icon_description">Pesquisar</string>
+    <string name="home_instruction">digite ou fale o que eu devo encontrar</string>
+    <string name="home_instruction_continued">para você agora</string>
+    <string name="central_feature_description">Imagem central</string>
+    <string name="mic_description">Microfone</string>
+    <string name="recent_searches_title">Pesquisas recentes</string>
+    <string name="recent_searches_description">Aqui estão as suas pesquisas recentes. Você pode removê-las pressionando em uma delas ou pode favoritar clicando no ícone de coração.</string>
+    <string name="logout">Logout</string>
+
+    <!-- Strings para Tela Perfil -->
+    <string name="profile_title">Perfil</string>
+    <string name="profile_description">Aqui você pode customizar o seu perfil, cadastrar as suas redes sociais, calibrar o seu sistema de pesquisa e muito mais..</string>
+    <string name="account_details">Dados da conta</string>
+    <string name="update_password">Atualizar senha</string>
+    <string name="current_password_hint">senha atual</string>
+    <string name="new_password_hint">senha nova</string>
+    <string name="social_media">Vincular redes sociais</string>
+    <string name="avatar_label">Avatar</string>
+    <string name="save_button">salvar</string>
+    <string name="back_button">voltar</string>
+
 </resources>

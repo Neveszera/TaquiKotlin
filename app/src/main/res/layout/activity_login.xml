@@ -33,10 +33,10 @@
             android:id="@+id/titulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Login"
+            android:text="@string/login"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:textColor="#5A72C7"
+            android:textColor="@color/background_color"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="10dp"/>
 
@@ -44,46 +44,46 @@
             android:id="@+id/subtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Entre com seu e-mail e senha"
+            android:text="@string/enter_email_password"
             android:textSize="12sp"
-            android:textColor="#949494"
+            android:textColor="@color/subtitle_text_color"
             android:layout_marginLeft="10dp"/>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="e-mail"
+            android:hint="@string/email_hint"
             android:layout_marginTop="30dp"
             app:boxBackgroundMode="filled"
-            app:boxBackgroundColor="#EDEDED"
-            app:boxStrokeColor="#5A72C7"
-            app:hintTextColor="#B1B1B1">
+            app:boxBackgroundColor="@color/input_background_color"
+            app:boxStrokeColor="@color/input_stroke_color"
+            app:hintTextColor="@color/hint_text_color">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/email_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
-                android:textColor="#9366B7"
+                android:textColor="@color/input_text_color"
                 android:textSize="16sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="senha"
+            android:hint="@string/password_hint"
             android:layout_marginTop="16dp"
             app:boxBackgroundMode="filled"
-            app:boxBackgroundColor="#EDEDED"
-            app:boxStrokeColor="#5A72C7"
-            app:hintTextColor="#B1B1B1">
+            app:boxBackgroundColor="@color/input_background_color"
+            app:boxStrokeColor="@color/input_stroke_color"
+            app:hintTextColor="@color/hint_text_color">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/senha_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
-                android:textColor="#9366B7"
+                android:textColor="@color/input_text_color"
                 android:textSize="16sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -98,9 +98,9 @@
                 android:id="@+id/keep_connected"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="manter conectado"
+                android:text="@string/keep_connected"
                 android:textSize="12sp"
-                android:textColor="#949494"
+                android:textColor="@color/subtitle_text_color"
                 android:layout_weight="1"/>
 
             <com.google.android.material.button.MaterialButton
@@ -109,8 +109,8 @@
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:layout_gravity="center"
-                android:text="esqueceu sua senha?"
-                android:textColor="#5A72C7"
+                android:text="@string/forgot_password"
+                android:textColor="@color/background_color"
                 android:textSize="12sp" />
         </LinearLayout>
 
@@ -126,20 +126,20 @@
                 android:layout_width="190dp"
                 android:layout_height="55dp"
                 android:layout_gravity="center"
-                android:backgroundTint="#9366B7"
+                android:backgroundTint="@color/button_background_color"
                 android:paddingHorizontal="24dp"
                 android:paddingVertical="8dp"
-                android:text="entrar"
-                android:textColor="#FFFFFF"
+                android:text="@string/login_button"
+                android:textColor="@color/button_text_color"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btn_register"
                 android:layout_width="190dp"
                 android:layout_height="55dp"
-                android:backgroundTint="#FFFFFF"
-                android:text="registre-se"
-                android:textColor="#9366B7"
+                android:backgroundTint="@color/button_text_color"
+                android:text="@string/register_button"
+                android:textColor="@color/button_secondary_text_color"
                 android:textSize="20sp"
                 android:paddingHorizontal="24dp"
                 android:paddingVertical="8dp"
@@ -151,9 +151,9 @@
             android:id="@+id/tv_or_enter_with"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ou entre com"
+            android:text="@string/or_enter_with"
             android:textSize="12sp"
-            android:textColor="#949494"
+            android:textColor="@color/subtitle_text_color"
             android:layout_gravity="center"
             android:layout_marginTop="40dp"/>
 
@@ -170,7 +170,7 @@
                 android:layout_height="40dp"
                 android:src="@drawable/facebook"
                 android:layout_marginEnd="16dp"
-                android:contentDescription="Facebook" />
+                android:contentDescription="@string/facebook" />
 
             <ImageView
                 android:id="@+id/btn_google"
@@ -178,14 +178,14 @@
                 android:layout_height="40dp"
                 android:src="@drawable/google"
                 android:layout_marginEnd="16dp"
-                android:contentDescription="Google" />
+                android:contentDescription="@string/google" />
 
             <ImageView
                 android:id="@+id/btn_apple"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:src="@drawable/apple"
-                android:contentDescription="Apple" />
+                android:contentDescription="@string/apple" />
         </LinearLayout>
 
     </LinearLayout>

@@ -2,17 +2,32 @@
     <item
         android:id="@+id/action_favorites"
         android:icon="@drawable/favorites"
-        android:title="favoritos" />
+        android:title="favoritos"
+        android:iconTint="@color/subtitle_text_color"
+        android:titleTextColor="@color/subtitle_text_color"/>
     <item
         android:id="@+id/action_eureka"
         android:icon="@drawable/eureka"
-        android:title="eureka" />
+        android:title="eureka"
+        android:iconTint="@color/subtitle_text_color"
+        android:titleTextColor="@color/subtitle_text_color"/>
+
+    <item
+        android:id="@+id/action_central"
+        android:icon="@drawable/home"
+        android:title="central"
+        android:iconTint="@color/subtitle_text_color"
+        android:titleTextColor="@color/subtitle_text_color"/>
     <item
         android:id="@+id/action_messages"
         android:icon="@drawable/messages"
-        android:title="mensagens" />
+        android:title="mensagens"
+        android:iconTint="@color/subtitle_text_color"
+        android:titleTextColor="@color/subtitle_text_color"/>
     <item
         android:id="@+id/action_settings"
         android:icon="@drawable/settings"
-        android:title="configurações" />
+        android:title="configurações"
+        android:iconTint="@color/subtitle_text_color"
+        android:titleTextColor="@color/subtitle_text_color"/>
 </menu>

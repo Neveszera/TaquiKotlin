@@ -2,40 +2,27 @@ package com.example.taqui
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.google.firebase.auth.FirebaseAuth
-import com.example.taqui.ui.main.HomeActivity
+import com.example.taqui.ui.main.AuthenticatedActivity
 import com.example.taqui.ui.auth.LoginActivity
-
 
 class MainActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
 
         auth = FirebaseAuth.getInstance()
-
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
-
         val currentUser = auth.currentUser
+
+        // Redireciona para a AuthenticatedActivity se o usuário está autenticado
         if (currentUser != null) {
-            val intent = Intent(this, HomeActivity::class.java)
-            startActivity(intent)
-            finish()
+            startActivity(Intent(this, AuthenticatedActivity::class.java))
         } else {
-            val intent = Intent(this, LoginActivity::class.java)
-            startActivity(intent)
-            finish()
+            // Caso contrário, redireciona para a LoginActivity
+            startActivity(Intent(this, LoginActivity::class.java))
         }
+        finish() // Encerra MainActivity após redirecionar
     }
 }

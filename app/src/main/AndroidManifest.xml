@@ -43,7 +43,7 @@
             android:exported="true" />
 
         <activity
-            android:name=".ui.main.HomeActivity"
+            android:name=".ui.main.AuthenticatedActivity"
             android:exported="true" />
 
     </application>
